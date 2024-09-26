@@ -1,0 +1,263 @@
+body {
+    font-family: Helvetica, sans-serif, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+nav {
+    background-color: #333;
+    color: white;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+.hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    text-align: center;
+    margin-bottom: 250px;
+    
+}
+.hero h1{
+    font-size: 3em;
+}
+.hero p{
+    font-size: 1.5em;
+    margin-top: 10px;
+    color: #666;
+    max-width: 600px;
+    line-height: 1.5;
+}
+.logo-container{
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+}
+.logo{
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+    font-weight: bold;
+    width: 50px;
+    height: auto;
+    margin-right: 10px;
+    
+    
+}
+.education-header{
+    background-color: #007BFF;
+    padding: 10px 20px;
+    color: white;
+    display: inline-block;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 20px;
+
+}
+#education {
+    text-align: center;
+}
+.university-info{
+    display:flex;
+    align-items: center;
+    margin-left: 300px;
+}
+.university-logo{
+    width: 100px;
+    height: auto;
+    margin-right: 20px;
+    
+}
+.university-details{
+    max-width: 600px;
+    color: #333;
+    line-height: 1.5;
+    font-weight: bold;
+    font-size: 20px;
+}
+.projects-button,
+.skills-button{
+    margin-top: 20px;
+    padding: 15px 30px;
+    font-size: 1.5em;
+    color: white;
+    background-color: #007BFF;
+    border:none;
+    border-radius: 0;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.projects-button:hover{
+    background-color: #0056b3;
+}
+.skills-button{
+    background: #28a745;
+
+}
+.skills-button:hover{
+    background-color: #218838;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+}
+nav ul li{
+    display: inline;
+    margin-right: 40px;
+    font-size: 20px;
+    
+}
+nav a{
+    color: white;
+    text-decoration: none;
+}
+nav a:hover{
+    text-decoration: underline;
+}
+.certification-info {
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    margin: 20px 0; 
+    text-align: center;
+}
+
+.meta-logo {
+    width: 100px; 
+    height: auto; 
+    margin: 20px auto;
+    width: 100px;
+    height: auto;
+    display: block;
+}
+
+.certification-details {
+    max-width: 600px; 
+    color: #333; 
+    line-height: 1.5; 
+    text-align: left; 
+    font-weight: bold;
+    font-size: 20px;
+}
+.certifications-header {
+    background-color: #007BFF;
+    padding: 10px 20px;
+    color: white; 
+    display: inline-block; 
+    margin: 20px auto; 
+    border-radius: 5px; 
+}
+#certifications {
+    text-align: center;
+}
+.certification-list {
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.certification-list li {
+    background-color: #f8f9fa;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    color: #333;
+    font-weight: bold;
+}
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    margin-top: 20px; 
+}
+
+.skill {
+    text-align: center; 
+    margin: 50px; 
+    width: 100px;
+}
+
+.skill i {
+    font-size: 40px; 
+    color: #007BFF; 
+    margin-bottom: 10px; 
+}
+
+.skill span {
+    display: block; 
+    font-weight: bold; 
+}
+.skills-header {
+    text-align: center;
+    margin: 20px 0;
+}
+
+
+#projects {
+    padding: 40px 0; /* Space around the section */
+}
+
+.projects-header {
+    text-align: center; /* Center the header */
+    margin-bottom: 20px; /* Space below the header */
+}
+
+.projects-container {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap */
+    justify-content: center; /* Center the items */
+    width: 100%;
+}
+
+.project {
+    background: #f9f9f9; /* Light background for project cards */
+    border: 1px solid #ddd; /* Border around each project */
+    border-radius: 8px; /* Rounded corners */
+    margin: 15px; /* Space between projects */
+    padding: 20px; /* Space inside the project card */
+    width: 700px; /* Increase the width for larger cards */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Shadow effect */
+}
+
+.project-image {
+    width: 100%; /* Make image responsive */
+    height: 300px; /* Maintain aspect ratio */
+    border-radius: 8px; /* Rounded corners for the image */
+    margin-bottom: 20px; /* Space below the image */
+}
+
+.project h3 {
+    margin: 0 0 10px; /* Space below the title */
+}
+
+.project-link {
+    display: inline-block; /* Make the link a button */
+    padding: 10px 15px; /* Padding for the button */
+    background: #007BFF; /* Button color */
+    color: #fff; /* Button text color */
+    text-decoration: none; /* Remove underline */
+    border-radius: 5px; /* Rounded button */
+}
+
+.project-link:hover {
+    background: #0056b3; /* Darker color on hover */
+}
+#technical-skills{
+    padding: 40px 0;
+    margin-bottom: 300px;
+}
+
+
+
+
